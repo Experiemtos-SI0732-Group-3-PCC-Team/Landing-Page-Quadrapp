@@ -1,0 +1,233 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrapp Landing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Logotipo_Servicio_1.png" alt="Quadrapp logo" class="logo-img">
+                Quadrapp
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Beneficios</a></li>
+                <li><a href="#">Cómo funciona</a></li>
+                <li><a href="#">Producto</a></li>
+                <li><a href="#">Equipo</a></li>
+                <li><a href="#">Planes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <a href="#" class="login-btn">Iniciar sesión</a>
+            <select id="lang-select" class="lang-select" aria-label="Seleccionar idioma">
+                <option value="es">ES</option>
+                <option value="en">EN</option>
+            </select>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Quadrapp: tu espacio, <span class="highlight">a un toque</span></h1>
+                <p>Encuentra, reserva y paga tu estacionamiento en minutos.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary">Comenzar ahora</a>
+                    <a href="#" class="btn-secondary">
+                        <span class="play-icon">▶</span> Ver cómo funciona
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Ilustración simple tipo mockup -->
+                <div class="mockup">
+                    <div class="mockup-grid">
+                        <div class="grid-item purple"></div>
+                        <div class="grid-item blue"></div>
+                        <div class="grid-item gold"></div>
+                        <div class="grid-item gray"></div>
+                        <div class="grid-item gray"></div>
+                        <div class="grid-item purple"></div>
+                        <div class="grid-item gray"></div>
+                        <div class="grid-item blue"></div>
+                    </div>
+                    <div class="mockup-phone">
+                        <div class="phone-dot"></div>
+                        <div class="phone-screen"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Beneficios -->
+        <section class="benefits">
+            <h2>¿Por qué elegir Quadrapp?</h2>
+            <p class="benefits-desc">Simplificamos el proceso de encontrar y reservar estacionamiento para que puedas enfocarte en lo que realmente importa.</p>
+            <div class="benefits-cards">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="40" height="40" fill="#5a4fdc"><circle cx="20" cy="20" r="18" fill="#ecebfa"/><path d="M20 28a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm0-14a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm0 3a3 3 0 0 1 3 3h-2a1 1 0 1 0-2 0h-2a3 3 0 0 1 3-3z" fill="#5a4fdc"/></svg>
+                    </div>
+                    <h3>Búsqueda rápida</h3>
+                    <p>Encuentra estacionamientos disponibles cerca de ti en segundos.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="40" height="40" fill="#5a4fdc"><circle cx="20" cy="20" r="18" fill="#ecebfa"/><path d="M20 13a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0v-2a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v2a2 2 0 0 0 4 0v-2a2 2 0 0 0-2-2zm0 12a8 8 0 0 1-8-8h2a6 6 0 0 0 12 0h2a8 8 0 0 1-8 8z" fill="#5a4fdc"/></svg>
+                    </div>
+                    <h3>Reservas seguras</h3>
+                    <p>Garantiza tu espacio con reservas confirmadas al instante.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="40" height="40" fill="#5a4fdc"><circle cx="20" cy="20" r="18" fill="#ecebfa"/><rect x="13" y="17" width="14" height="10" rx="2" fill="#5a4fdc"/><rect x="16" y="20" width="8" height="2" rx="1" fill="#ecebfa"/></svg>
+                    </div>
+                    <h3>Pago simple</h3>
+                    <p>Paga de forma segura con tu método de pago preferido.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="40" height="40" fill="#5a4fdc"><circle cx="20" cy="20" r="18" fill="#ecebfa"/><rect x="15" y="15" width="10" height="10" rx="2" fill="#5a4fdc"/><text x="20" y="22" text-anchor="middle" font-size="7" fill="#ecebfa">QR</text></svg>
+                    </div>
+                    <h3>Comprobante QR</h3>
+                    <p>Accede a tu estacionamiento con un código QR único.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Cómo funciona -->
+        <section class="how-it-works">
+            <h2>Cómo funciona</h2>
+            <p class="how-desc">Tres simples pasos para encontrar y reservar tu estacionamiento perfecto.</p>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <svg width="40" height="40"><circle cx="20" cy="20" r="18" fill="#ecebfa"/><circle cx="20" cy="20" r="10" fill="#5a4fdc"/><text x="20" y="25" text-anchor="middle" font-size="13" fill="#fff">01</text></svg>
+                    </div>
+                    <h3>Explora</h3>
+                    <p>Busca estacionamientos disponibles en tu área usando nuestra app intuitiva.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <svg width="40" height="40"><circle cx="20" cy="20" r="18" fill="#ecebfa"/><circle cx="20" cy="20" r="10" fill="#5a4fdc"/><text x="20" y="25" text-anchor="middle" font-size="13" fill="#fff">02</text></svg>
+                    </div>
+                    <h3>Reserva</h3>
+                    <p>Selecciona el horario y duración que necesitas para tu estacionamiento.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <svg width="40" height="40"><circle cx="20" cy="20" r="18" fill="#ecebfa"/><circle cx="20" cy="20" r="10" fill="#5a4fdc"/><text x="20" y="25" text-anchor="middle" font-size="13" fill="#fff">03</text></svg>
+                    </div>
+                    <h3>Paga y usa tu QR</h3>
+                    <p>Completa el pago y recibe tu código QR para acceder al estacionamiento.</p>
+                </div>
+            </div>
+        </section>
+            <!-- Sección Demo en acción -->
+            <section class="demo-section">
+                <h2>Descubre Quadrapp en acción</h2>
+                <p class="demo-desc">Ve cómo nuestra aplicación transforma la experiencia de estacionamiento urbano.</p>
+                <div class="demo-video">
+                    <div class="video-mockup">
+                        <button class="video-btn"><span class="play-icon">▶</span> Ver demo</button>
+                    </div>
+                    <a href="#" class="video-transcript">Ver transcripción del video</a>
+                </div>
+                <div class="demo-features">
+                    <div class="demo-feature">
+                        <span class="feature-icon gold">⏱️</span>
+                        <span>Disponibilidad en tiempo real</span>
+                    </div>
+                    <div class="demo-feature">
+                        <span class="feature-icon gold">💳</span>
+                        <span>Checkout seguro</span>
+                    </div>
+                    <div class="demo-feature">
+                        <span class="feature-icon gold">🔑</span>
+                        <span>QR inmediato</span>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección Testimonios -->
+            <section class="testimonials">
+                <h2>Lo que dicen nuestros usuarios</h2>
+                <p class="testimonials-desc">Miles de conductores ya confían en Quadrapp para sus necesidades de estacionamiento.</p>
+                <div class="testimonial-cards">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">“Quadrapp me ha ahorrado tanto tiempo. Ya no tengo que dar vueltas buscando estacionamiento en el centro”</p>
+                        <div class="testimonial-user">María González</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">“La app es súper fácil de usar y el pago con QR es genial. Definitivamente la recomiendo.”</p>
+                        <div class="testimonial-user">Carlos Rodríguez</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">“Perfecto para cuando voy de compras. Siempre encuentro un lugar seguro y cerca de donde necesito.”</p>
+                        <div class="testimonial-user">Ana Martínez</div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección Equipo -->
+            <section class="team-section">
+                <h2>Conoce al equipo</h2>
+                <p class="team-desc">Un grupo apasionado de profesionales dedicados a revolucionar la movilidad urbana.</p>
+                <div class="team-content">
+                    <div class="team-video">
+                        <div class="video-mockup">
+                            <button class="video-btn"><span class="play-icon">▶</span> Conoce nuestra historia</button>
+                        </div>
+                        <a href="#" class="video-transcript">Ver transcripción del video</a>
+                    </div>
+                    <div class="team-members">
+                        <div class="team-member"><span class="team-name">Laura Pérez</span><span class="team-role">CEO & Fundadora</span></div>
+                        <div class="team-member"><span class="team-name">Diego Morales</span><span class="team-role">CTO</span></div>
+                        <div class="team-member"><span class="team-name">Sofía Chen</span><span class="team-role">Head of Design</span></div>
+                        <div class="team-member"><span class="team-name">Miguel Torres</span><span class="team-role">Lead Developer</span></div>
+                        <a href="#" class="team-btn">Conoce al equipo completo</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección CTA -->
+            <section class="cta-section">
+                <h2>Comienza gratis hoy</h2>
+                <p class="cta-desc">Únete a miles de conductores que ya disfrutan de una experiencia de estacionamiento sin complicaciones.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary">Crear cuenta gratis</a>
+                    <a href="#" class="btn-secondary">Descargar app</a>
+                </div>
+                <div class="cta-info">Sin compromiso · Cancela cuando quieras · Soporte 24/7</div>
+            </section>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <span class="logo">Quadrapp</span>
+                        <span class="footer-slogan">Tu espacio, a un toque</span>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Ayuda</a>
+                        <a href="#">Términos</a>
+                        <a href="#">Privacidad</a>
+                        <a href="#">Contacto</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" width="18"></a>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter" width="18"></a>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" width="18"></a>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="18"></a>
+                    </div>
+                </div>
+                <div class="footer-copy">© 2025 Quadrapp. Todos los derechos reservados.</div>
+            </footer>
+    </main>
+</body>
+    <script src="script.js"></script>
+</html>
