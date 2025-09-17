@@ -32,11 +32,32 @@ body {
     box-shadow: 0 4px 32px rgba(90,79,220,0.08);
     width: 90%;
     max-width: 700px;
-    height: 320px;
+    min-height: 320px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 8px;
+    text-align: center;
+    position: relative;
+}
+    display: inline-block;
+    margin: 0 auto;
+}
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 18px;
+    margin: 0;
+    text-align: center;
+}
+    margin: 0 auto 8px auto;
+}
+    display: block;
+    margin: 0 auto 18px auto;
+    border-radius: 16px;
+    max-width: 100%;
+    box-shadow: 0 2px 12px rgba(90,79,220,0.08);
+}
 }
 .video-btn {
     background: #fff;
